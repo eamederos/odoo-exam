@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_backend_inherit_ninebox" inherit_id="web.assets_frontend" name="Conctact us">
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/exam/static/src/js/email_validation.js"></script>
+        </xpath>
+    </template>
+</odoo>

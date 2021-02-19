@@ -1,0 +1,131 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* exam
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-18 20:53+0000\n"
+"PO-Revision-Date: 2021-02-18 20:53+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: exam
+#: model:ir.model,name:exam.model_blog_post
+msgid "Blog Post"
+msgstr "Entrada del blog"
+
+#. module: exam
+#: model:ir.model,name:exam.model_blog_blog
+msgid "Blogs"
+msgstr ""
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_blog_blog__company_id
+#: model:ir.model.fields,field_description:exam.field_blog_post__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.sale_order_delete_btn_view
+msgid "Delete zero product qty"
+msgstr "Eliminar líneas 0 Producto"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_crm_lead__found_by
+msgid "Found us by"
+msgstr "¿Cómo nos encontró?"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "How you found us"
+msgstr "¿Como nos encontró?"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_crm_lead__found_by
+msgid "Indicate how our company was found"
+msgstr "Inidique cómo nos encontró"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Internet Search"
+msgstr "Búsqueda de Internet"
+
+#. module: exam
+#: selection:crm.lead,found_by:0
+msgid "Internet search"
+msgstr "Búsqueda de Internet"
+
+#. module: exam
+#: code:addons/exam/models/sale_order.py:12
+#, python-format
+msgid "It is not possible to confirm an order with no zero quantity of products in any line"
+msgstr "No es posible confirmar una orden si alguna de sus líneas tiene cero cantidad de producto."
+
+#. module: exam
+#: model:ir.model,name:exam.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: exam
+#: model:ir.model,name:exam.model_sale_order
+msgid "Sale Order"
+msgstr "Pedido de venta"
+
+#. module: exam
+#: model:ir.model,name:exam.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Send"
+msgstr "Enviar"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_sale_order__show_btn_delete_lines
+msgid "Show Btn Delete Lines"
+msgstr ""
+
+#. module: exam
+#: selection:crm.lead,found_by:0
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Social Networks"
+msgstr "Redes Sociales"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: exam
+#: selection:crm.lead,found_by:0
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Third Parties"
+msgstr "Terceros"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Your Company"
+msgstr "Su compañía"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Your Name"
+msgstr "Su nombre"
+
+#. module: exam
+#: model_terms:ir.ui.view,arch_db:exam.contactus_form_exam
+msgid "Your Question"
+msgstr "Su pregunta"
+

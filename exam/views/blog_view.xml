@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+        <record id="blog_blog_company_id_form_view" model="ir.ui.view">
+            <field name="name">blog.blog.company.id.form.view</field>
+            <field name="inherit_id" ref="website_blog.view_blog_blog_form"/>
+            <field name="model">blog.blog</field>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='subtitle']" position="after">
+                    <field name="company_id"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="blog_post_company_id_form_view" model="ir.ui.view">
+            <field name="name">blog.post.company.id.form.view</field>
+            <field name="inherit_id" ref="website_blog.view_blog_post_form"/>
+            <field name="model">blog.post</field>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='subtitle']" position="after">
+                    <field name="company_id"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record model="ir.rule" id="blog_blog_multi_company">
+            <field name="name">Blog multi-company</field>
+            <field name="model_id" ref="model_blog_blog"/>
+            <field name="domain_force">['|',('company_id','=',False),('company_id','child_of',[user.company_id.id])]</field>
+        </record>
+
+        <record model="ir.rule" id="blog_post_multi_company">
+            <field name="name">Blog Post multi-company</field>
+            <field name="model_id" ref="model_blog_post"/>
+            <field name="domain_force">['|',('company_id','=',False),('company_id','child_of',[user.company_id.id])]</field>
+        </record>
+
+</odoo>
